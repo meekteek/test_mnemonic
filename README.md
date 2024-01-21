@@ -1,11 +1,10 @@
-This code is to show a simple way to initialize a wallet with an existing wallet with its mneomonic phrase that one may have generated from a browser wallet.
-
+Code to show a simple way to initialize a wallet with its mneomonic phrase that may have been generated from a browser wallet.
 
 There are not succifient resources for initializing and using cosmos wallets.
 There is basic documentation and there exist some examples from
 https://gist.github.com/larry0x/92399bb2f9ce4b769e112ce5550091b9 or 
 https://github.com/cosmos/cosmos-rust/issues/300 
-but both do not use the same path that is used for normal keypair generation from a mneomonic phrase one would expect from using Keplr/Leap wallets.
+but both do not use the same path that is used for normal keypair generation from a mneomonic phrase as expected from using Keplr/Leap wallets.
 
 
 In this code we use BIP-0044's registered coin type for cosmos wallets as denoted in 

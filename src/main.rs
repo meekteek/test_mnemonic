@@ -6,7 +6,6 @@ use serde::Deserialize;
 // https://github.com/satoshilabs/slips/blob/master/slip-0044.md
 const HD_PATH: &str = "m/44'/118'/0'/0/0";
 // put chain you are interested in here
-// osmo is default
 const BECH_PREFIX: &str = "osmo";
 
 fn main() -> Result<(), Error> {
